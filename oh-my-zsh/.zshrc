@@ -1,6 +1,9 @@
+# Apache Maven
+PATH="/Users/akshaymittal/Development/support/apache-maven-3.9.6/bin:$PATH"
 # GnuCoreUtils
 PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
-
+# Python
+PATH="/opt/homebrew/opt/python@3.12/libexec/bin:$PATH"
 # ======================== #
 # oh-my-zsh configurations
 # ======================== #
