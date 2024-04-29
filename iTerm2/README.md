@@ -1,13 +1,24 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
-- [Steps to import iTerm2 settings](#steps-to-import-iterm2-settings)
+- [How to use?](#how-to-use)
+  - [Pre-requisites](#pre-requisites)
+  - [Steps to import iTerm2 settings](#steps-to-import-iterm2-settings)
 - [References](#references)
 
 # Introduction
 This directory contains settings files and resources to setup iTerm2 on MacOS.
 
-# Steps to import iTerm2 settings
+# How to use?
+
+## Pre-requisites
+- Required fonts must be installed.
+  ```
+    brew tap homebrew/cask-fonts
+    brew install --cask font-hack-nerd-font
+  ```
+
+## Steps to import iTerm2 settings
 
 1. Clone this project.
     ```

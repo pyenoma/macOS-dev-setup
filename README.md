@@ -1,5 +1,18 @@
+# Table of contents
+- [Table of contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Pre-requisites](#pre-requisites)
+  - [Links to specific READMEs](#links-to-specific-readmes)
+
+
 # Introduction
 This repository contains settings and resource files to quickly setup MacOS for development.
+
+# Pre-requisites
+1. Homebrew must be installed.
+  ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
 
 ## Links to specific READMEs
 

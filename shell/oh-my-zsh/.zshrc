@@ -1,12 +1,19 @@
+# Plugin settings
+# you-should-use
+# (space separated list)
+export YSU_IGNORED_ALIASES=("lsd")
+# Aliases
+alias ls=lsd
 # Apache Maven
 PATH="/Users/akshaymittal/Development/support/apache-maven-3.9.6/bin:$PATH"
 # GnuCoreUtils
 PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 # Python
 PATH="/opt/homebrew/opt/python@3.12/libexec/bin:$PATH"
-# ======================== #
-# oh-my-zsh configurations
-# ======================== #
+
+# ======================== ======================== #
+# oh-my-zsh configurations (Start)
+# ======================== ======================== #
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -18,7 +25,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="af-magic-modified"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -111,3 +118,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 test -e /Users/akshaymittal/.iterm2_shell_integration.zsh && source /Users/akshaymittal/.iterm2_shell_integration.zsh || true
 
+# ======================== ======================== #
+# oh-my-zsh configurations (End)
+# ======================== ======================== #
